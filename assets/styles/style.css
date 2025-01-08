@@ -35,7 +35,11 @@ body {
 
 /* Header */
 .header {
-  margin-top: 25px;
+  top: 40px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
 }
 
 .header .row .main-nav {
